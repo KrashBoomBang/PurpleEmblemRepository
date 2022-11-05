@@ -9,3 +9,12 @@
 //#include "Palettes/Palette Installer.event"
 
 #include "Animation/Master Animation Installer.txt"
+
+//Map Sprite Palette
+PUSH
+ORG 0x59EE20
+#incext Png2Dmp "PlayerPal.png" --palette-only
+
+ORG 0x59EE40
+#incext Png2Dmp "EnemyPal.png" --palette-only
+POP
