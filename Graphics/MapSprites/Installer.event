@@ -2,6 +2,7 @@ ALIGN 4
 YuriLordStand:
 #incbin "YuriLordStand.dmp"
 
+ALIGN 4
 YuriLordMove:
 #incbin "YuriLordMove.dmp"
 

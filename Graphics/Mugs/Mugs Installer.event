@@ -1,10 +1,8 @@
-
-
-
-
-#define YuriMug 2
-#define RosheaMug 3
-
-#include "Portraits/Installer.event"
+#include "Tools/Tool Helpers.txt"
+//(mouthx,mouthy,eyesx,eyesy)
+ALIGN 4
+YuriMug:
+#incext PortraitFormatter "Yuri.png"
+setMugEntry(0x2,YuriMug,3,5,3,3)
 
 
